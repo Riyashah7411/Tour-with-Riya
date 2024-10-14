@@ -1,0 +1,118 @@
+/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 380px;
+    height: 100px;
+    border:  7px dashed rgb(1, 17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.card{
+    max-height: max-content;
+    padding: 1rem;
+    margin: 1 rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
+
+.tour-price{
+    color: #1faa59;
+    font-weight : 1.5rem;
+    font-size: 1.3rem;
+}
+
+.tour-name{
+    font-weight: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.read-more{
+    color: rgb(27, 222, 229);
+}
+
+.btn-red{
+    border: 2px solid #b4164b;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 190px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;  
+ font-weight: 1.8rem; 
+}
+
+.btn-white{
+    margin-top: 2px;
+    padding: 0.5rem;
+    width: 160px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-white:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.2s;  
+}
+
